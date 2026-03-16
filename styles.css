@@ -29,17 +29,11 @@ body::before {
 }
 
 .aws-link {
-    background: #7877c6;
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 500;
-    font-size: 16px;
-    transition: all 0.2s ease;
-    margin-top: 2rem;
-    display: inline-block;
-    border: none;
+ background:#2563eb;
+ color:white;
+ padding:12px 24px;
+ border-radius:8px;
+ text-decoration:none;
 }
 
 .aws-link:hover {
@@ -54,14 +48,9 @@ main {
     position: relative;
 }
 
-.hero {
-    background: white;
-    border-radius: 8px;
-    padding: 60px 40px;
-    margin-bottom: 40px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    text-align: center;
-    position: relative;
+.hero{
+ text-align:center;
+ padding:100px 20px;
 }
 
 .hero::after {
@@ -91,15 +80,11 @@ main {
     font-weight: 400;
 }
 
-.profile-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #e5e7eb;
-    margin: 0 auto 20px auto;
-    display: block;
-}
+.profile{
+ width:160px;
+ border-radius:50%;
+ margin-bottom:20px;
+}}
 
 .fun-facts {
     background: white;
@@ -548,4 +533,13 @@ footer {
     .contact-form h3 {
         font-size: 24px;
     }
+}
+
+.navbar{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:20px 40px;
+ background:#0f172a;
+ color:white;
 }
